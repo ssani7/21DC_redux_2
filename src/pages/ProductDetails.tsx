@@ -39,7 +39,7 @@ export default function ProductDetails() {
           </Button>
         </div>
       </div>
-      <ProductReview />
+      <ProductReview id={id} />
     </>
   );
 }
